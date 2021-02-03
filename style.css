@@ -1,16 +1,116 @@
-/* Type your code here */
 
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
 
-/* change the font family and spacing as per your project font */
-.footer{
-    display:flex;
-    flex-direction: row;
+*{
+	margin:0px;
+	padding: 0px;
+}
+body{
+	background-image:url('assets/background-image1.png');
+	background-repeat: no-repeat;
+	background-position-x: right;
+	background-position-y: 5.9em;
+	font-family: 'Comic Neue', cursive;
+	
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+}
+
+.logo{
+	margin-left: auto;
+	margin-right: 80px;
+	margin-top: 20px;
+	justify-content: flex-end;
+	align-items: flex-end;
+	
+}
+
+.subcontainer{
+	display:flex;
+    flex-direction: column;
     align-content: flex-end;
 	position: relative;
-	top: 750px;
 	margin-left: 80px;
+}
+
+.header{
+	margin-top: 30px;
+	font-weight: bold;
+	font-size: 45px;
+	text-shadow: 0px 3px 3px #716E6D;
+
+}
+
+.para{
+	font-size: 25px;
+	color: #716E6D;
+	padding-bottom: 20px;
+}
+
+.footer{    
+	margin-top: 30px;
 	font-size: 18px;
-	font-family: Nunito Sans;
     font-style: normal;
-    
+}
+
+table{
+	border-collapse: collapse;
+	width: 750px;
+
+}
+
+
+td{
+	padding: 8px;
+	margin-bottom: 1px;
+	justify-content: flex-end;
+	font-size: 15px;
+}
+
+.row11{
+	background-color: orangered;
+	color: whitesmoke;
+	border-collapse: collapse;
+}
+
+.row1{
+	background-color: #FDFAFA;
+}
+
+.row1,.row2, .row3,.row4,.row5,.row6,.row7,.row8,.row9{
+	border-bottom: 1px solid #999;
+	background-color: white;
+}
+
+.row10{
+	background-color: white;
+}
+
+a{
+	text-decoration: none;
+	color: #2E92E2;
+}
+
+
+.box2{
+	color:grey;
+}
+
+.lastcol {
+	display: flex;
+	width: 30px;
+	margin-left: -10px;
+	padding-right: -50px;
+}
+
+.box1{
+	font-size: 18px;
+}
+
+span{
+	font-weight: bold;
+	font-size: 20px;
 }
